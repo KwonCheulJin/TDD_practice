@@ -1,5 +1,7 @@
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class AccountTest {
@@ -12,18 +14,12 @@ class AccountTest {
     @Test
     void testGetBalance() {
         Account account = new Account(10000);
-        if(account.getBalance() != 10000) {
-            fail("getBalance() =>" + account.getBalance());
-        }
+        assertEquals(10000, account.getBalance(),"10000원으로 계좌 생성 후 잔고 조회");
 
         account = new Account(1000);
-        if(account.getBalance() != 1000) {
-            fail();
-        }
+        assertEquals(1000, account.getBalance());
 
         account = new Account(0);
-        if(account.getBalance() != 0) {
-            fail();
-        }
+        assertEquals(0, account.getBalance());
     }
 }
