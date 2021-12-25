@@ -8,3 +8,7 @@
  - TDD에 대한 전반적인 지식을 쌓는다.
  - TDD를 익숙하게 사용하도록 숙달한다.
  - 일주일에 1챕터 이상 진행한다.
+
+## blog
+
+ - [CHAPTER 1](https://www.devkcj.com/TDD-practice-1/)
