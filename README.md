@@ -12,3 +12,4 @@
 ## blog
 
  - [CHAPTER 1](https://www.devkcj.com/TDD-practice-1/)
+ - [CHAPTER 2-1](https://www.devkcj.com/TDD-practice-2-1/)
