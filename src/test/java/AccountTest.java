@@ -1,4 +1,7 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertSame;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -37,4 +40,16 @@ class AccountTest {
         account.withdraw(1000);
         assertEquals(9000, account.getBalance());
     }
+
+    @Test
+    void testAssertDouble() {
+        assertEquals(0.3333, 1/3d, 0.0001);
+    }
+
+    @Test
+    void testNUllAccount() {
+        account = null;
+        assertNull(account);
+    }
+
 }
