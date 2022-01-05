@@ -1,5 +1,4 @@
 public class Account {
-
     private int balance;
 
     public Account(int money) {
